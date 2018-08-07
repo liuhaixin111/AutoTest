@@ -1,0 +1,27 @@
+[
+  {
+    "description":"重定向",
+    "request":{
+      "uri":"/red"
+    },
+    "redirectTo":"http://www.163.com"
+  },
+  {
+    "description":"重定向到自己的页面",
+    "request":{
+      "uri":"/topath"
+    },
+    "redirectTo":"/success"
+  },
+  {
+    "description":"被重定向的请求",
+    "request":{
+      "uri":"/success"
+    },
+    "response":{
+      "json":{
+        "return":"seccess"
+      }
+    }
+  }
+]

@@ -6,7 +6,7 @@
       "method":"post"
     },
     "response":{
-      "text":"第一个mock的post请求"
+      "text":"the first mock of the post request"
     }
   },
   {
@@ -20,7 +20,7 @@
       }
     },
     "response":{
-      "text":"这是一个dai有参数的get请求。liuhaixin20"
+      "text":"the post request with param.liuhaixin20"
     }
   }
 ]

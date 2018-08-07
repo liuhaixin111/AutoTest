@@ -1,6 +1,6 @@
 [
   {
-    "description":"这是一个带cookies的get请求",
+    "description":"这是带cookies的get请求",
     "request":{
       "uri":"/get/with/cookies",
       "method":"get",
@@ -9,7 +9,29 @@
       }
     },
     "response":{
-      "text":"这是一个需要携带cookies信息才能访问的请求"
+      "text":"the get request must have cookies can be visit"
+    }
+  },
+  {
+    "description":"这是带cookies的post请求",
+    "request":{
+      "uri":"/post/with/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"liuhaixin",
+        "age":"20"
+      }
+    },
+    "response":{
+      "status":"200",
+      "json":{
+        "liuhaixin":"success",
+        "status":"1",
+        "txt":"ttt"
+      }
     }
   }
 ]
